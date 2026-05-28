@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Print Hello Message
         run: echo "Hello World! My GitHub Action is fully working from native WSL! 🚀"
+      - name: tells you where you are
+        run: pwd
