@@ -1,0 +1,11 @@
+name: My First Hello World
+
+on: [push, workflow_dispatch]
+
+jobs:
+  say-hello-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello Message
+        run: echo "Hello World! My GitHub Action is fully working from native WSL! 🚀"
